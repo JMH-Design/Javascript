@@ -1,0 +1,57 @@
+
+let js = "amazing";
+console.log(10 + 10);
+
+let firstName = "Jared";
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+// console.log(typeof true);
+console.log(typeof javascriptIsFun);
+//console.log(typeof 23);
+//console.log(typeof "Jared");
+
+javascriptIsFun = "Yes!";
+console.log(typeof javascriptIsFun);
+
+let age = 30;
+age = 34;
+console.log(age);
+
+const now = 1000;
+const ageJared = 1992 - now;
+const ageJoona = 1998 - now;
+console.log(ageJared, ageJoona);
+console.log(ageJared * 2, ageJoona * 2);
+const firstName = "Jared";
+const lastName = "Haggit";
+console.log(firstName + " " + lastName);
+console.log(1992 - now > 1998 - now);
+
+const massMark = 76;
+const heightMark = 2.5;
+const massJohn = 73;
+const heightJohn = 2.4;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+console.log(BMIJohn);
+console.log(BMIMark);
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+*/
+const firstName = "Jared";
+const job = "Product Designer";
+const birthYear = 1992;
+const currentYear = 2037;
+
+const jared =
+  "I'm" + " " + firstName + " " + "a" + " " + (currentYear - birthYear);
+console.log(jared);
+
+const jaredNew = `I'm ${firstName}, a ${job} , born in ${birthYear} but currently live in ${currentYear}`;
+console.log(jaredNew);
