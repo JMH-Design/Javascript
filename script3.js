@@ -63,3 +63,36 @@ function bottlesOfBeer() {
 
 bottlesOfBeer();
 while (condition) {}
+
+// arrow functions
+// Syntax
+
+() => 'Expression'
+(param) => 'Expression'
+(param,param2) => 'expression'
+ 
+
+function cutsFruit(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutsFruit(apples);
+  const orangePieces = cutsFruit(oranges);
+  const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges.`;
+  return juice;
+}
+console.log(fruitProcessor(2, 3));
+
+
+const birthYear = 1992;
+const age = 2037 - birthYear;
+
+function retirement(birthYear, firstName) {
+  const age = 2037 - birthYear;
+  const retirement = 65 - age;
+  return `${firstName} retires in ${retirement}
+years.`;
+}
+console.log(retirement(1992, 'Jared'));
+
